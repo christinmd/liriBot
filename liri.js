@@ -86,7 +86,7 @@ var Concert = function() {
          // Append actorData and the divider to log.txt, print showData to the console
       fs.appendFile("log.txt", spotifyData + divider, function(err) {
         if (err) throw err;
-        console.log(spotifyData);
+        // console.log(spotifyData);
       });
 
   })
